@@ -1,9 +1,9 @@
 workflow "Test" {
   on = "push"
-  resolves = ["lafernando/github-action-bash/@master"]
+  resolves = ["build"]
 }
 
-action "lafernando/github-action-bash/@master" {
-  uses = "lafernando/github-action-bash/@master"
-  args = "bHMKcHdkCgo="
+action "build" {
+  uses = "actions/docker/cli@master"
+  args = "pull hello-world"
 }
