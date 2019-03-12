@@ -5,5 +5,5 @@ workflow "Test" {
 
 action "build" {
   uses = "actions/docker/cli@master"
-  args = "build . -t abc"
+  args = "build . --force-rm=true -t abc"
 }
