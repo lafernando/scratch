@@ -5,5 +5,5 @@ workflow "Test" {
 
 action "build" {
   uses = "actions/docker/cli@master"
-  args = "pull hello-world"
+  args = "build ."
 }
