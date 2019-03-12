@@ -1,5 +1,9 @@
-FROM ballerina/ballerina:latest
+# Auto Generated Dockerfile
 
-ADD x.txt /x.txt
+FROM ballerina/ballerina-runtime:0.990.3
+LABEL maintainer="dev@ballerina.io"
+
+COPY x.txt /home/ballerina 
 
 EXPOSE  8080
+CMD ballerina run  x.txt
