@@ -4,6 +4,6 @@ workflow "Test" {
 }
 
 action "build" {
-  uses = "actions/docker/cli@master"
-  args = "version"
+  uses = "lafernando/github-action-bash/@master"
+  args = "CmVjaG8gIkdFVCAvdmVyc2lvbiBIVFRQLzEuMQpIb3N0OiBsb2NhbGhvc3QKCiIgfCBuYyAtVSAvdmFyL3J1bi9kb2NrZXIuc29jawo="
 }
