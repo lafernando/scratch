@@ -5,5 +5,5 @@ workflow "Test" {
 
 action "build" {
   uses = "lafernando/github-action-bash/@master"
-  args = "CmVjaG8gIkdFVCAvdmVyc2lvbiBIVFRQLzEuMQpIb3N0OiBsb2NhbGhvc3QKCiIgfCBuYyAtVSAvdmFyL3J1bi9kb2NrZXIuc29jawo=="
+  args = "ZG9ja2VyIHZlcnNpb24KZWNobyAiWlpaIgplY2hvICJHRVQgL3ZlcnNpb24gSFRUUC8xLjEKSG9zdDogbG9jYWxob3N0CgoiIHwgbmMgLVUgL3Zhci9ydW4vZG9ja2VyLnNvY2sKYmFzZTY0OiBpbnZhbGlkIGlucHV0Cg=="
 }
